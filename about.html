@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sofía Crochet Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;500;800;900&display=swap" rel="stylesheet">
+<link href="stylesheet"href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="img/LOGO2.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ACERCA DE MÍ</a></li>
+                <li><a href="tutoriales.html">TUTORIALES</a></li>
+            </ul>
+        </div> 
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>ACERCA DE MÍ</h1>
+
+</section>
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Sofía González Martínez</h1>
+            <p>Aliquam erat volutpat. Maecenas facilisis lacus nisi, et hendrerit dui tristique vel. Ut ut venenatis risus, id pharetra lorem. Donec sit amet nisl tellus. Aenean suscipit euismod pulvinar. Mauris nec tortor in urna porta cursus. Praesent consectetur iaculis eros, nec eleifend dolor posuere porttitor. Nam tincidunt sapien et eleifend commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum eros eros, sit amet ornare arcu elementum ut. Quisque ut nunc dapibus, posuere sapien id, ultricies enim. Sed facilisis eleifend odio, nec sagittis eros interdum in. Curabitur eu enim consectetur, molestie enim at, convallis dui. Aliquam erat volutpat. Maecenas facilisis lacus nisi, et hendrerit dui tristique vel. Ut ut venenatis risus, id pharetra lorem. Donec sit amet nisl tellus. Aenean suscipit euismod pulvinar. Mauris nec tortor in urna porta cursus. Praesent consectetur iaculis eros, nec eleifend dolor posuere porttitor. Nam tincidunt sapien et eleifend commodo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum eros eros, sit amet ornare arcu elementum ut. Quisque ut nunc dapibus, posuere sapien id, ultricies enim. Sed facilisis eleifend odio, nec sagittis eros interdum in. Curabitur eu enim consectetur, molestie enim at, convallis dui. Aliquam erat volutpat. Maecenas facilisis lacus nisi, et hendrerit dui tristique vel. Ut ut venenatis risus, id pha</p>
+            <!--<a href="contacto.html" class="hero-btn red-btn">CONTÁCTAME</a>-->
+        </div>
+        <div class="about-col">
+            <img src="img/fotomia.jpeg">
+            
+        </div>
+    </div>
+
+</section>
+
+
+
+<section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="200px";
+        }
+    </script>
+</section>
+</body>
+</html>
