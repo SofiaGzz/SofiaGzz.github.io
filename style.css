@@ -12,11 +12,14 @@
     position:relative;
 }
 
-nav{
+nav a{
     display: flex;
-    padding: 2% 6%;
+    padding: 2% 4%;
+    padding-top: 40px;
     justify-content: space-between;
     align-items: center;
+    max-width: 100%;
+    height: auto;
 }
 
 nav img{
@@ -63,6 +66,7 @@ nav img{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+   padding-top:90px;
 }
 
 .text-box h1{
@@ -94,38 +98,6 @@ nav img{
 
 nav .fa{
     display: none;
-}
-
-@media(max-width: 700px){
-    .text-box h1{
-        font-size: 20px;
-    }
-    .nav-links ul li{
-        display: block;
-    }
-    .nav-links ul li{
-       position:absolute;
-       background: #ffbf97;
-       height: 100vh;
-       width:200px;
-       top:0;
-       right:-200;
-       text-align: left;
-       z-index: 2;
-       transition: 1s;
-
-    }
-    nav .fa{
-        display: block;
-        color: #fff;
-        margin: 10px;
-        font-size:22px;
-        cursor:pointer;
-    }
-    .nav-links ul{
-        padding: 30px;
-    }
-
 }
 
 .tutoriales{
@@ -185,6 +157,27 @@ p{
     transition: 0.5s;
     background-image: linear-gradient(rgba(219, 191, 171, 0.7), rgba(219,191,171,0.7)), url(img/boton1.jpg);
 }
+.tutoriales-col1 h1{
+    color: #fff;
+}
+.tutoriales-col2 h1{
+    color: #fff;
+    font-size: 44px;
+}
+.tutoriales-col3 h1{
+    color: #fff;
+}
+
+.tutoriales-col1 h4{
+    color: #fff;
+}
+.tutoriales-col2 h4{
+    color: #fff;
+}
+.tutoriales-col3 h4{
+    color: #fff;
+}
+
 .tutoriales-col2 {
     display: inline-block;
     text-decoration: none;
@@ -259,13 +252,13 @@ h3{
     background-position: center;
     background-size: cover;
     text-align: center;
-    color: #b36f46;
+    color: #fff;
 
 }
 
 .sub-header h1{
-    margin-top: 50px;
-    font-size: 70px;
+    margin-top: 15px;
+    font-size: 60px;
 
     
 }
@@ -273,7 +266,7 @@ h3{
 .about-us{
     width: 80%;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 50px;
 }
 
@@ -318,7 +311,7 @@ h3{
 
 .sub-header2 h1{
     margin-top: 50px;
-    font-size: 70px;
+    font-size: 55px;
 }
 
 .video-col1 {
@@ -330,7 +323,7 @@ h3{
     border-radius: 30px;
     margin-bottom: 5%;
     padding: 20px 12px;
-    position: relative;
+    position:relative;
 }
 
 .video-col1 h3{
@@ -501,8 +494,8 @@ h3{
 }
 
 .sub-headerf h1{
-    margin-top: 50px;
-    font-size: 70px;
+    margin-top: 20px;
+    font-size: 55px;
  
 }
 
@@ -518,8 +511,8 @@ h3{
 }
 
 .sub-headerff h1{
-    margin-top: 50px;
-    font-size: 70px;
+    margin-top: 20px;
+    font-size: 47px;
 }
 
 .sub-headerfff{
@@ -534,6 +527,34 @@ h3{
 }
 
 .sub-headerfff h1{
-    margin-top: 50px;
-    font-size: 70px;
+    margin-top: 20px;
+    font-size: 50px;
 }
+
+.offoffcanvas-body a ul{
+    text-decoration: none;
+    color: #b36f46;
+    height: 50vh;
+    text-align: center;
+}
+.offcanvas-header h5{
+    color: #ffbf97;
+    font-size: 30px; 
+    text-align: center;
+}
+.container-fluid a{
+    color: #ffbf97; 
+    text-decoration: none;
+    font-size: 20px;
+}
+.container-fluid a:hover{
+    color: #b36f46; 
+    text-decoration: none;
+    font-size: 20px;
+    transition: 1s;
+}
+.dropdown-menu ul{
+    color:#b36f46;
+    font-size: 100px;
+}
+
