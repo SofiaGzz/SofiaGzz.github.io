@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,99 +13,101 @@
 <link href="stylesheet"href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
 </head>
 <body>
-<section class="sub-headerff">
-    <nav>
-        <a href="index.html"><img src="img/LOGO2.png" alt=""></a>
-        <div class="nav-links" id="navLinks">
-            <i class="fa fa-times" onclick="hideMenu()"></i>
-            <ul>
+<div class="container-fluid">    
+    <section class="sub-headerff">
+        <nav>
+            <a href="index.html"><img src="img/LOGO2.png" alt=""></a>
+        </nav>
+        <h1>TUTORIALES INTERMEDIOS</h1>
+
+    </section>
+
+    <section class="tutoriales">
+        <h1>Videos de Youtube: </h1>
+        <p>Estos son videos más intermedios, no son tan complicados, pero sí dificles si no sabes lo báscio</p>
+        <div class="row">
+            <section>
+                    <div class="video-col1">
+                    <h3>Cojín Crochet</h3>
+                    <p>Tutorial básico para hacer un cojín</p>
+                    <iframe width="300" height="250" src="https://www.youtube.com/embed/rMzk7aPGGm0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="video-col2">
+                    <h3>Portavaso Crochet</h3>
+                    <p>Portavaso en forma de Mandala</p>
+                    <iframe width="300" height="250" src="https://www.youtube.com/embed/Ium6UBEEpm0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="video-col3">
+                    <h3>Flores Crochet</h3>
+                    <p>Flores que se pueden coser</p>
+                    <iframe width="300" height="250" src="https://www.youtube.com/embed/8lZlX9f8YVo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </section>
+        <section>
+            <div class="video-col4">
+                <h3>Top tipo "Halter"</h3>
+                <p>Fácil Top Tipo Halter</p>
+                <iframe width="300" height="250" src="https://www.youtube.com/embed/FCQ1NtMdP0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video-col5">
+                <h3>Bolsa floreada</h3>
+                <p>Bolsa hecha con granny squares</p>
+                <iframe width="300" height="250" src="https://www.youtube.com/embed/pQwsqp9AvE0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video-col6">
+                <h3>Bolsa/ Cartera</h3>
+                <p>Hecha a Trapillo</p>
+                <iframe width="300" height="250" src="https://www.youtube.com/embed/2RiTzH13Kek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section>
+            <div class="video-col7">
+                <h3>Top Verano</h3>
+                <p>Top corto Fácil</p>
+                <iframe width="300" height="250" src="https://www.youtube.com/embed/z2i1a4fvxrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video-col8">
+                <h3>Top 80's</h3>
+                <p>Top Estilo 80's con dos colores</p>
+                <iframe width="300" height="250" src="https://www.youtube.com/embed/kx8bAV4UCdo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video-col9">
+                <h3>4 Tops Sencillos</h3>
+                <p>Compliación de 4 tutoriales de Tops</p>
+                <iframe width="300" height="250" src="https://www.youtube.com/embed/oGWvPmbLZ4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="regresar1">
+                <a href="tutoriales.html" class="hero-btn red-btn">REGRESAR</a>
+            </div>
+            </section>
+        </div>
+    </section>
+
+    <!--Menú--> 
+    <nav class="navbar navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">MENÚ</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENÚ</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="about.html">ACERCA DE MÍ</a></li>
                 <li><a href="tutoriales.html">TUTORIALES</a></li>
-            </ul>
-        </div> 
-        <i class="fa fa-bars" onclick="showMenu()"></i>
+                </ul>
+            </div>
+        </div>
+        </div>
     </nav>
-    <h1>TUTORIALES INTERMEDIOS</h1>
-
-</section>
-
-<section class="tutoriales">
-    <h1>Videos de Youtube: </h1>
-    <p>Estos son videos más intermedios, no son tan complicados, pero sí dificles si no sabes lo báscio</p>
-    <div class="row">
-        <section>
-                <div class="video-col1">
-                <h3>Cojín Crochet</h3>
-                <p>Tutorial básico para hacer un cojín</p>
-                <iframe width="350" height="250" src="https://www.youtube.com/embed/rMzk7aPGGm0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-               </div>
-               <div class="video-col2">
-                <h3>Portavaso Crochet</h3>
-                <p>Portavaso en forma de Mandala</p>
-                <iframe width="350" height="250" src="https://www.youtube.com/embed/Ium6UBEEpm0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-               </div>
-               <div class="video-col3">
-                <h3>Flores Crochet</h3>
-                <p>Flores que se pueden coser</p>
-                <iframe width="350" height="250" src="https://www.youtube.com/embed/8lZlX9f8YVo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-               </div>
-        </section>
-    <section>
-        <div class="video-col4">
-            <h3>Top tipo "Halter"</h3>
-            <p>Fácil Top Tipo Halter</p>
-            <iframe width="350" height="250" src="https://www.youtube.com/embed/FCQ1NtMdP0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-           </div>
-           <div class="video-col5">
-            <h3>Bolsa floreada</h3>
-            <p>Bolsa hecha con granny squares</p>
-            <iframe width="350" height="250" src="https://www.youtube.com/embed/pQwsqp9AvE0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-           </div>
-           <div class="video-col6">
-            <h3>Bolsa/ Cartera</h3>
-            <p>Hecha a Trapillo</p>
-            <iframe width="350" height="250" src="https://www.youtube.com/embed/2RiTzH13Kek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-           </div>
-           <div class="regresar1">
-            <a href="tutoriales.html" class="hero-btn red-btn">REGRESAR</a>
-           </div>
-    </section>
-    <section>
-        <div class="video-col7">
-            <h3>Top Verano</h3>
-            <p>Top corto Fácil</p>
-            <iframe width="350" height="250" src="https://www.youtube.com/embed/z2i1a4fvxrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-           </div>
-           <div class="video-col8">
-            <h3>Top 80's</h3>
-            <p>Top Estilo 80's con dos colores</p>
-            <iframe width="350" height="250" src="https://www.youtube.com/embed/kx8bAV4UCdo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-           </div>
-           <div class="video-col9">
-            <h3>4 Tops Sencillos</h3>
-            <p>Compliación de 4 tutoriales de Tops</p>
-            <iframe width="350" height="250" src="https://www.youtube.com/embed/oGWvPmbLZ4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-     </section>
-    </div>
-    </div>
 
 
-</section>
-
-
-<section>
-
-    <script>
-        var navLinks = document.getElementById("navLinks");
-        function showMenu(){
-            navLinks.style.right="0";
-        }
-        function hideMenu(){
-            navLinks.style.right="200px";
-        }
-    </script>
-</section>
- 
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
